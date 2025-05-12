@@ -76,29 +76,21 @@ section h3 {
 
 .activity-card ul {
   margin-top: 10px;
-  padding-left: 0;
-  list-style-type: none;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
+  padding-left: 20px;
+  list-style-type: disc;
+  display: block;
 }
 
 .activity-card ul li {
-  margin: 0;
+  margin-bottom: 5px;
   font-size: 14px;
-  padding: 5px 10px;
-  background-color: #e3f2fd;
-  color: #0d47a1;
-  border: 1px solid #90caf9;
-  border-radius: 20px;
-  display: inline-block;
-  transition: background-color 0.3s, color 0.3s;
-}
-
-.activity-card ul li:hover {
-  background-color: #0d47a1;
-  color: #ffffff;
-  border-color: #0d47a1;
+  padding: 0;
+  background-color: transparent;
+  color: #333;
+  border: none;
+  border-radius: 0;
+  display: list-item;
+  transition: none;
 }
 
 .form-group {
